@@ -14,3 +14,5 @@ before_script:
 script:
   - ./_build.sh
   - ./_deploy.sh
+
+travis encrypt GITHUB_PAT=s3Wzaro53QnJ8tMNVUwNqQ
